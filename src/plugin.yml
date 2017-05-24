@@ -1,1 +1,13 @@
+name: OPcore
+version: 0.1
+api: [3.0.0]
+main: OPgamer\OPcore\Main
+commands:
+  test:
+       description: This is OPgamer's first command!
 
+permissions:
+  test:
+   default: false
+      description: Allows to have command /test
+        children:
