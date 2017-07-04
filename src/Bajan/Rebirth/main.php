@@ -24,11 +24,11 @@ class Main extends PluginBase{
        If(strtolower)($cmd->getName()) == "test"){
 
        if($sender->hasPermission("test")){
-          $sender->sendMessage(color::AQUA. "[Rebirth Plugin]". color::RED. "This is a test command")
+          $sender->sendMessage(color::AQUA. "[Rebirth Plugin]". color::RED. "This is a test command more coming soon to Rebirth")
 
      $sender->setHealth(20.0);
    }elseif(!$sender->hasPermission("test")){
-            $sender->sendMessage(color::RED. "sorry you do not have permission to use this");
+            $sender->sendMessage(color::RED. "sorry you do not have permission to use this command");
 
 }
 }
