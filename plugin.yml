@@ -1,0 +1,13 @@
+name: Bajan
+version: 0.1
+api: [3.0.0]
+main: Bajan\Rebirth\Main
+commands:
+  test:
+       description: This is Rebirth's first command!
+
+permissions:
+  test:
+   default: false
+      description: Allows to have command /test
+        children:
